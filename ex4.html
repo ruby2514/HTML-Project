@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>exercise 4 — Revservation Form</title>
+   </head>
+
+   <body>
+      <h1>Reservations Form</h1>
+
+      <!-- turn autocomplete on -->
+      <form method = "post" autocomplete = "on">
+         <p><label>Full Name:
+            <input type = "text" id = "fullName" 
+               placeholder = "Full name" /> 
+            </label></p>
+         <p><label>MSU E-mail Address:
+            <input type = "MSU E-mail Address" id = "MSU E-mail Address" 
+               placeholder = "name@montclair.edu" /> 
+            </label></p>
+         <label for="request-date">Request Date*</label>
+      <input id="request-date" name="request_date" type="date" required>
+      </label></p>
+         <label for="building">Building*</label>
+      <select id="building" name="building" required>
+        <option value="CCIS" selected>CCIS</option>
+        <option value="CELS">CELS</option>
+        <option value="Richardson">Richardson</option>
+        <option value="Science">Science</option>
+      </select>
+         </label></p>
+         <p><input type = "submit" value = "Submit" />
+            <input type = "reset" value = "Clear" /></p>   
+      </form>
+   </body>
+</html>

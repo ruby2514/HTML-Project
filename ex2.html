@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CS Topics Table</title>
+  <style>
+    table {
+      border: 3px solid black;
+      border-collapse: collapse;
+      margin: auto;
+      box-shadow: 4px 4px 8px #555;
+    }
+    caption {
+      font-weight: bold;
+      padding: 8px;
+    }
+    td {
+      border: 2px solid black;
+      text-align: center;
+      font-weight: bold;
+      padding: 10px;
+    }
+    /* Colors for specific cells */
+    .red { background-color: red; color: black; }
+    .orange { background-color: orange; }
+    .green { background-color: green; color: black; }
+    .blue { background-color: blue; color: black; }
+    .cyan { background-color: cyan; }
+  </style>
+</head>
+<body>
+  <h1 style="font-style: italic;">
+    Ruby <span style="font-style: normal;">Table</span>
+  </h1>
+
+  <table>
+    <caption>Popularity of CS Topics</caption>
+
+    <!-- First Row -->
+    <tr>
+      <td colspan="3" class="red">AI</td>
+      <td colspan="2" class="orange">Parallel Processing</td>
+    </tr>
+
+    <!-- Second Row -->
+    <tr>
+      <td colspan="2">5G Network</td>
+      <td colspan="1">6G Network</td>
+      <td class="cyan">Robotics</td>
+      <td>Python</td>
+    </tr>
+
+    <!-- Third Row -->
+    <tr>
+      <td>C/C++</td>
+      <td>ML</td>
+      <td>QC</td>
+      <td colspan="2"></td>
+    </tr>
+
+    <!-- Fourth Row -->
+    <tr>
+      <td colspan="2" class="green">Software Engineering</td>
+      <td>Gaming</td>
+      <td colspan="2" class="blue">Machine Learning</td>
+    </tr>
+
+    <!-- Fifth Row -->
+    <tr>
+      <td colspan="5">Theory</td>
+    </tr>
+  </table>
+</body>
+</html>
